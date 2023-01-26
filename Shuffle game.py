@@ -24,17 +24,7 @@ def check_guess(mylist,guess):
         print('Wrong! Better luck next time')
         print(mylist)
 
-# Initial List
 mylist = [' ','O',' ']
-
-# Shuffle It
 mixedup_list = shuffle_list(mylist)
-
-# Get User's Guess
 guess = player_guess()
-
-# Check User's Guess
-#------------------------
-# Notice how this function takes in the input
-# based on the output of other functions!
 check_guess(mixedup_list,guess)
